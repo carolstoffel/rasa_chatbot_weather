@@ -1,0 +1,25 @@
+this is with a freelancer:
+go to cloud shell:
+git clone https://github.com/yassinelamarti/CHAIchatbot.git
+cd CHAIchatbot
+docker build --tag chaichatbot:1.0 .
+docker images
+docker ps
+docker ps -a
+docker run --publish 5005:5005 --detach --name chaichatbot chaichatbot:1.0
+
+here I can use the botton: web preview in the right of parameters botton.
+An I have to copie the new url and past it into my page on the socketUrl
+
+and the chatbot works ( without answers, I don't know why)
+
+I can stop the container by :
+docker stop idOfMyContainer
+
+
+
+to go inside the dockerfile and add libraries or modify anything (tested in google cloud shell):
+run the docker container:  docker start idOfMyContainer
+"docker exec -it 0aa3cdfa77a6 /bin/bash"
+then I can use: "pip install usjon"
+to exit the I can type : "exit"
