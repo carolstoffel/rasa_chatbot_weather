@@ -2,7 +2,6 @@
 
 if [ -z "$PORT"]
 then
-  PORT=5005
+  PORT=5056
 fi
-rasa run actions
 rasa run -m models --enable-api --cors "*" --debug --port $PORT
