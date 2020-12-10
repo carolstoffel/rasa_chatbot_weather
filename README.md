@@ -1,7 +1,7 @@
 # Chatbot com Rasa
 
 Este bot retorna a temperatura. Exemplos de perguntas:
-- me fale a temperatura de agora no Santa Catarina
+- me fale a temperatura de agora em Santa Catarina
 - o dia está ensolarado no Rio de Janeiro?
 - vai chover hoje no Tocantins?
 
@@ -15,7 +15,7 @@ Este bot retorna a temperatura. Exemplos de perguntas:
 
 Necessário criar uma conta no website (https://www.climacell.co/) e (https://developer.tomtom.com/), para ter acesso as devidas API(inseridas em app/actions.py), para poder coletar as informações do clima e coordenadas geográficas, respectivamente.
 
-Este bot está sendo melhorado e será feito em breve o deploy do server das actions,para funcionar devidamente conforme nos prints no site: (http://carolstoffel.epizy.com/). Por enquanto o website conta apenas com o server do chat.
+Este bot está sendo melhorado e será feito em breve o deploy do server das actions, para funcionar devidamente conforme nos prints no site: (http://carolstoffel.epizy.com/). Por enquanto o website conta apenas com o server do chat.
 
 Foi testado o chatbot no computador local, ao rodar os seguintes comandos:
 ```
