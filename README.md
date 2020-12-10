@@ -21,7 +21,11 @@ Foi testado o chatbot no computador local, ao rodar os seguintes comandos:
 ```
 rasa train
 rasa run actions
-rasa run -m models --enable-api --cors “*” --debug (em outro cmd)
+```
+
+Aberto outro cmd e executado:
+```
+rasa run -m models --enable-api --cors "*" --debug
 ```
 
 Executado o ngrok e executado o seguinte comando:
