@@ -5,6 +5,8 @@ Este bot retorna a temperatura. Exemplos de perguntas:
 - o dia está ensolarado no Rio de Janeiro?
 - vai chover hoje no Tocantins?
 
+
+### Screenshoot
 ![](https://ibb.co/H7pXzNs)
 > Conversa com Sarah
 
