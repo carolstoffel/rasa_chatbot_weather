@@ -32,3 +32,5 @@ Executado o ngrok e executado o seguinte comando:
 ```
 ngrok.exe http 5005
 ```
+
+Alterado o arquivo index.html, sem ocketUrl inserido o link gerado pelo ngrok em Forwarding.
