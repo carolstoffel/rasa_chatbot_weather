@@ -25,14 +25,14 @@ class ActionAskWeather(Action):
             result = "Não entendi o local que deseja. Vou dizer a temperatura de Toledo, Paraná, Brazil. "
         else:
             geolocation = geocoder.tomtom(
-                location=local, key='thfGJoM8E7CjMZfbvf0Jw8i2Zbl3lPSF')
+                location=local, key='DIGITE SUA KEY DO TOMTOM AQUI')
             geo_json = geolocation.json
             geo_json = json.dumps(geo_json)
             geo_json = json.loads(geo_json)
             latitude, longitude = str(geo_json['lat']), str(geo_json['lng'])
 
         querystring = {"lat": latitude, "lon": longitude, "unit_system": "si",
-                       "fields": "temp,humidity,weather_code", "apikey": "rFztmQ2ZUPdyQ2G8I4pKRKpSYBps7UEk"}
+                       "fields": "temp,humidity,weather_code", "apikey": "DIGITE SUA KEY DO CLIMACELL AQUI"}
         response = requests.request("GET", url, params=querystring)
 
         json_data = response.json()
