@@ -7,13 +7,13 @@ Este bot retorna a temperatura. Exemplos de perguntas:
 
 
 ### Screenshoot
-![](https://i.ibb.co/4P6B6v9/Screenshot-3.png)
+![](https://i.ibb.co/BGDMmMQ/Screenshot-1.png)
 > Conversa com Sarah
 
-![](https://i.ibb.co/gWNbvrj/Screenshot-5.png)
+![](https://i.ibb.co/s3G1tLp/Screenshot-2.png)
 > Conversa com Sarah
 
-Necessário criar uma conta no website (https://www.climacell.co/) e (https://developer.tomtom.com/), para ter acesso as devidas API(inseridas em app/actions.py), para poder coletar as informações do clima e coordenadas geográficas, respectivamente.
+Necessário criar uma conta no website (https://openweathermap.org/) e (https://developer.tomtom.com/), para ter acesso as devidas API(inseridas em app/actions.py), para poder coletar as informações do clima e coordenadas geográficas, respectivamente.
 
 Este bot está sendo melhorado e será feito em breve o deploy do server das actions, para funcionar devidamente conforme nos prints no site: (http://carolstoffel.epizy.com/). Por enquanto o website conta apenas com o server do chat.
 
