@@ -37,7 +37,7 @@ class ActionAskWeather(Action):
         description = json_data['weather'][0]['description'].capitalize()
         temperatura = json_data['main']['temp']
         umidade = json_data['main']['humidity']
-        result += '{}. A temperatura no momento é de {}°C e umidade do ar de {}%.'.format(
+        result += '{}. A temperatura no momento é de {}°C e umidade do ar é de {}%.'.format(
             description, temperatura, umidade)
 
         dispatcher.utter_message(text=result)
