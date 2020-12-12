@@ -7,8 +7,8 @@ import requests
 import geocoder
 import json
 
-openweathermap_KEY = 'b4ac2ea46e84c8bb81af77cf3549ffb5'
-tomtom_KEY = 'thfGJoM8E7CjMZfbvf0Jw8i2Zbl3lPSF'
+openweathermap_KEY = 'Digite sua api do openweathermap aqui'
+tomtom_KEY = 'Digite sua api do tomtom aqui'
 
 
 class ActionAskWeather(Action):
